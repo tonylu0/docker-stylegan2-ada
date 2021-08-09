@@ -30,7 +30,7 @@ To actually train your GAN use a command similar to the following.
 
 ```
 cd /home/stylegan2-ada/
-python train.py --gpus=1 --data=Hibiki_256_dataset --kimg 50 --results --aug=ada
+python train.py --gpus=1 --data=Hibiki_256_dataset --kimg 50 --outdir=results --aug=ada
 ```
 
 You must provide an input directory that contains your image TFRecords. You must also provide an output results directory.  The results directory will contain snapshots of your generator, sample images as training progresses, and a log.
