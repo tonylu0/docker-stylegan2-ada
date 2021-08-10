@@ -21,7 +21,7 @@ Your images must be converted to TFRecords. It is very important that all of you
 
 ```
 cd /home/stylegan2-ada/
-python dataset_tool.py create_from_images /mnt/datasets/fish /mnt/data/fish
+python dataset_tool.py create_from_images outputDatasetFolder inputDataFolder
 ```
 
 # Train GANs
